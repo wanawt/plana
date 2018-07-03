@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4394C58E20EB4B9F00F4C3C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4394C58D20EB4B9F00F4C3C5 /* AppDelegate.m */; };
+		4394C59120EB4B9F00F4C3C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4394C59020EB4B9F00F4C3C5 /* ViewController.m */; };
+		4394C59420EB4B9F00F4C3C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4394C59220EB4B9F00F4C3C5 /* Main.storyboard */; };
+		4394C59620EB4BA000F4C3C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4394C59520EB4BA000F4C3C5 /* Assets.xcassets */; };
+		4394C59920EB4BA000F4C3C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4394C59720EB4BA000F4C3C5 /* LaunchScreen.storyboard */; };
+		4394C59C20EB4BA000F4C3C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4394C59B20EB4BA000F4C3C5 /* main.m */; };
+		4394C5A620EB4BA000F4C3C5 /* planaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4394C5A520EB4BA000F4C3C5 /* planaTests.m */; };
+		4394C5B120EB4BA000F4C3C5 /* planaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4394C5B020EB4BA000F4C3C5 /* planaUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4394C5A220EB4BA000F4C3C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4394C58120EB4B9E00F4C3C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4394C58820EB4B9E00F4C3C5;
+			remoteInfo = plana;
+		};
+		4394C5AD20EB4BA000F4C3C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4394C58120EB4B9E00F4C3C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4394C58820EB4B9E00F4C3C5;
+			remoteInfo = plana;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4394C58920EB4B9E00F4C3C5 /* plana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = plana.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4394C58C20EB4B9E00F4C3C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4394C58D20EB4B9F00F4C3C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4394C58F20EB4B9F00F4C3C5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4394C59020EB4B9F00F4C3C5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4394C59320EB4B9F00F4C3C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4394C59520EB4BA000F4C3C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4394C59820EB4BA000F4C3C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4394C59A20EB4BA000F4C3C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4394C59B20EB4BA000F4C3C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4394C5A120EB4BA000F4C3C5 /* planaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = planaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4394C5A520EB4BA000F4C3C5 /* planaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = planaTests.m; sourceTree = "<group>"; };
+		4394C5A720EB4BA000F4C3C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4394C5AC20EB4BA000F4C3C5 /* planaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = planaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4394C5B020EB4BA000F4C3C5 /* planaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = planaUITests.m; sourceTree = "<group>"; };
+		4394C5B220EB4BA000F4C3C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4394C58620EB4B9E00F4C3C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4394C59E20EB4BA000F4C3C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4394C5A920EB4BA000F4C3C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4394C58020EB4B9E00F4C3C5 = {
+			isa = PBXGroup;
+			children = (
+				4394C58B20EB4B9E00F4C3C5 /* plana */,
+				4394C5A420EB4BA000F4C3C5 /* planaTests */,
+				4394C5AF20EB4BA000F4C3C5 /* planaUITests */,
+				4394C58A20EB4B9E00F4C3C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4394C58A20EB4B9E00F4C3C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4394C58920EB4B9E00F4C3C5 /* plana.app */,
+				4394C5A120EB4BA000F4C3C5 /* planaTests.xctest */,
+				4394C5AC20EB4BA000F4C3C5 /* planaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4394C58B20EB4B9E00F4C3C5 /* plana */ = {
+			isa = PBXGroup;
+			children = (
+				4394C58C20EB4B9E00F4C3C5 /* AppDelegate.h */,
+				4394C58D20EB4B9F00F4C3C5 /* AppDelegate.m */,
+				4394C58F20EB4B9F00F4C3C5 /* ViewController.h */,
+				4394C59020EB4B9F00F4C3C5 /* ViewController.m */,
+				4394C59220EB4B9F00F4C3C5 /* Main.storyboard */,
+				4394C59520EB4BA000F4C3C5 /* Assets.xcassets */,
+				4394C59720EB4BA000F4C3C5 /* LaunchScreen.storyboard */,
+				4394C59A20EB4BA000F4C3C5 /* Info.plist */,
+				4394C59B20EB4BA000F4C3C5 /* main.m */,
+			);
+			path = plana;
+			sourceTree = "<group>";
+		};
+		4394C5A420EB4BA000F4C3C5 /* planaTests */ = {
+			isa = PBXGroup;
+			children = (
+				4394C5A520EB4BA000F4C3C5 /* planaTests.m */,
+				4394C5A720EB4BA000F4C3C5 /* Info.plist */,
+			);
+			path = planaTests;
+			sourceTree = "<group>";
+		};
+		4394C5AF20EB4BA000F4C3C5 /* planaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4394C5B020EB4BA000F4C3C5 /* planaUITests.m */,
+				4394C5B220EB4BA000F4C3C5 /* Info.plist */,
+			);
+			path = planaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4394C58820EB4B9E00F4C3C5 /* plana */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4394C5B520EB4BA000F4C3C5 /* Build configuration list for PBXNativeTarget "plana" */;
+			buildPhases = (
+				4394C58520EB4B9E00F4C3C5 /* Sources */,
+				4394C58620EB4B9E00F4C3C5 /* Frameworks */,
+				4394C58720EB4B9E00F4C3C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = plana;
+			productName = plana;
+			productReference = 4394C58920EB4B9E00F4C3C5 /* plana.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4394C5A020EB4BA000F4C3C5 /* planaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4394C5B820EB4BA000F4C3C5 /* Build configuration list for PBXNativeTarget "planaTests" */;
+			buildPhases = (
+				4394C59D20EB4BA000F4C3C5 /* Sources */,
+				4394C59E20EB4BA000F4C3C5 /* Frameworks */,
+				4394C59F20EB4BA000F4C3C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4394C5A320EB4BA000F4C3C5 /* PBXTargetDependency */,
+			);
+			name = planaTests;
+			productName = planaTests;
+			productReference = 4394C5A120EB4BA000F4C3C5 /* planaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4394C5AB20EB4BA000F4C3C5 /* planaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4394C5BB20EB4BA000F4C3C5 /* Build configuration list for PBXNativeTarget "planaUITests" */;
+			buildPhases = (
+				4394C5A820EB4BA000F4C3C5 /* Sources */,
+				4394C5A920EB4BA000F4C3C5 /* Frameworks */,
+				4394C5AA20EB4BA000F4C3C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4394C5AE20EB4BA000F4C3C5 /* PBXTargetDependency */,
+			);
+			name = planaUITests;
+			productName = planaUITests;
+			productReference = 4394C5AC20EB4BA000F4C3C5 /* planaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4394C58120EB4B9E00F4C3C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Zhang Weifan";
+				TargetAttributes = {
+					4394C58820EB4B9E00F4C3C5 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					4394C5A020EB4BA000F4C3C5 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 4394C58820EB4B9E00F4C3C5;
+					};
+					4394C5AB20EB4BA000F4C3C5 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 4394C58820EB4B9E00F4C3C5;
+					};
+				};
+			};
+			buildConfigurationList = 4394C58420EB4B9E00F4C3C5 /* Build configuration list for PBXProject "plana" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4394C58020EB4B9E00F4C3C5;
+			productRefGroup = 4394C58A20EB4B9E00F4C3C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4394C58820EB4B9E00F4C3C5 /* plana */,
+				4394C5A020EB4BA000F4C3C5 /* planaTests */,
+				4394C5AB20EB4BA000F4C3C5 /* planaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4394C58720EB4B9E00F4C3C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4394C59920EB4BA000F4C3C5 /* LaunchScreen.storyboard in Resources */,
+				4394C59620EB4BA000F4C3C5 /* Assets.xcassets in Resources */,
+				4394C59420EB4B9F00F4C3C5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4394C59F20EB4BA000F4C3C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4394C5AA20EB4BA000F4C3C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4394C58520EB4B9E00F4C3C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4394C59120EB4B9F00F4C3C5 /* ViewController.m in Sources */,
+				4394C59C20EB4BA000F4C3C5 /* main.m in Sources */,
+				4394C58E20EB4B9F00F4C3C5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4394C59D20EB4BA000F4C3C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4394C5A620EB4BA000F4C3C5 /* planaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4394C5A820EB4BA000F4C3C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4394C5B120EB4BA000F4C3C5 /* planaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4394C5A320EB4BA000F4C3C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4394C58820EB4B9E00F4C3C5 /* plana */;
+			targetProxy = 4394C5A220EB4BA000F4C3C5 /* PBXContainerItemProxy */;
+		};
+		4394C5AE20EB4BA000F4C3C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4394C58820EB4B9E00F4C3C5 /* plana */;
+			targetProxy = 4394C5AD20EB4BA000F4C3C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4394C59220EB4B9F00F4C3C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4394C59320EB4B9F00F4C3C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4394C59720EB4BA000F4C3C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4394C59820EB4BA000F4C3C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4394C5B320EB4BA000F4C3C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4394C5B420EB4BA000F4C3C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4394C5B620EB4BA000F4C3C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HQ262QY6GL;
+				INFOPLIST_FILE = plana/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.weifan.plana;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4394C5B720EB4BA000F4C3C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HQ262QY6GL;
+				INFOPLIST_FILE = plana/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.weifan.plana;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4394C5B920EB4BA000F4C3C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HQ262QY6GL;
+				INFOPLIST_FILE = planaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.weifan.planaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/plana.app/plana";
+			};
+			name = Debug;
+		};
+		4394C5BA20EB4BA000F4C3C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HQ262QY6GL;
+				INFOPLIST_FILE = planaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.weifan.planaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/plana.app/plana";
+			};
+			name = Release;
+		};
+		4394C5BC20EB4BA000F4C3C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HQ262QY6GL;
+				INFOPLIST_FILE = planaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.weifan.planaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = plana;
+			};
+			name = Debug;
+		};
+		4394C5BD20EB4BA000F4C3C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HQ262QY6GL;
+				INFOPLIST_FILE = planaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.weifan.planaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = plana;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4394C58420EB4B9E00F4C3C5 /* Build configuration list for PBXProject "plana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4394C5B320EB4BA000F4C3C5 /* Debug */,
+				4394C5B420EB4BA000F4C3C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4394C5B520EB4BA000F4C3C5 /* Build configuration list for PBXNativeTarget "plana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4394C5B620EB4BA000F4C3C5 /* Debug */,
+				4394C5B720EB4BA000F4C3C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4394C5B820EB4BA000F4C3C5 /* Build configuration list for PBXNativeTarget "planaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4394C5B920EB4BA000F4C3C5 /* Debug */,
+				4394C5BA20EB4BA000F4C3C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4394C5BB20EB4BA000F4C3C5 /* Build configuration list for PBXNativeTarget "planaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4394C5BC20EB4BA000F4C3C5 /* Debug */,
+				4394C5BD20EB4BA000F4C3C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4394C58120EB4B9E00F4C3C5 /* Project object */;
+}
